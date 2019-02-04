@@ -195,3 +195,112 @@ footer {
     vertical-align: bottom;
     font-size: 10px;
 }
+
+/* media-queries */
+
+@media screen and (max-width: 980px) 
+
+{   
+    .contentcontainer,
+    .cardcontainer    {
+        width: 75%;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .cardcontainer {
+        padding-right: 0px;
+    }
+
+    .container {
+        margin-left: 20px;
+    }
+
+    #yournav {
+        float: left;
+        text-align: right;
+        padding-left: 60px;
+    }
+
+    p {
+        padding: 5px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) 
+
+{   
+    .contentcontainer,
+    .cardcontainer    {
+        width: 90%;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .cardcontainer {
+        padding-right: 0px;
+    }
+
+    .container {
+        margin-left: 20px;
+    }
+
+    #yournav {
+        float: left;
+        text-align: right;
+        padding-left: 30px;
+    }
+
+    p {
+        padding: 5px 20px;
+    }
+}
+
+@media screen and (max-width: 640px) 
+
+{   
+    .contentcontainer,
+    .cardcontainer    {
+        width: 90%;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .cardcontainer {
+        padding: 0px;
+    }
+
+    #yourname {
+        width: 100%;
+        margin: 0 auto;
+        max-height: 150px;
+        padding: 0px;
+    }
+
+    .container {
+        margin-left: 0px;
+        max-width: 100%;
+    }
+
+    #yournav {
+        width: 100%;
+        margin: 0 auto;
+        max-height: 50px;
+        padding: 0px 0px 20px 0px;
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        background: none;
+    }
+
+    li {
+        float: left;
+        white-space: pre;
+    }
+
+    p {
+        padding: 5px 20px;
+    }
+}
